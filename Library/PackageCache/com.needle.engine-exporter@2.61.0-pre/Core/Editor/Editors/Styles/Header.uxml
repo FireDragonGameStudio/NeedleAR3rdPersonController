@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns="UnityEngine.UIElements">
+    <Style src="DefaultStyles.uss"/>
+    <Style src="Header.uss"/>
+    <VisualElement class="header">
+        <Image class="logo"/>
+        <Label class="h1 title" text="Needle Engine"/>
+    </VisualElement>
+</UXML>

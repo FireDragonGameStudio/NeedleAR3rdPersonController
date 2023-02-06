@@ -1,0 +1,45 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite --host",
+    "pre-build" : "tsc",
+    "build:dev": "tsc && vite build && npm run copy-files",
+    "build:production": "npm run build:dev && npm run pack-gltf",
+    "serve": "vite preview",
+    "copy-files": "copy-files-from-to",
+    "pack-gltf": "npm run pack-gltf --prefix node_modules/@needle-tools/engine"
+  },
+  "dependencies": {
+    "@needle-tools/engine": "<needle-runtime-package>",
+    "three": "<threejs-package>",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@gltf-transform/cli": "^2.1.7",
+    "@gltf-transform/functions": "^2.1.7",
+    "@types/three": "^0.134.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "ansi-styles": "^6.1.0",
+    "copy-files-from-to": "^3.3.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "typescript": "^4.5.5",
+    "vite": "2.6.4",
+    "vite-plugin-compression": "^0.3.6"
+  },
+  "copyFiles": [
+    {
+      "from": "assets/**/*.*",
+      "to": "dist/assets/"
+    },
+    {
+      "from": "node_modules/@needle-tools/engine/include/**/*.*",
+      "to": "dist/include/"
+    },
+    {
+      "from": "include/**/*.*",
+      "to": "dist/include/"
+    }
+  ]
+}

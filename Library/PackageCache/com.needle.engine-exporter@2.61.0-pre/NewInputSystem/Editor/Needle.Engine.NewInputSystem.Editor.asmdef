@@ -1,0 +1,27 @@
+{
+    "name": "Needle.Engine.NewInputSystem.Editor",
+    "rootNamespace": "Needle.Engine.NewInputSystem",
+    "references": [
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:6086ce97fb14496588b8986d1f5d770f",
+        "GUID:63199805345a4784cb9f767ea474e8cd",
+        "GUID:f23f84078225740478820679864d14f7"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "",
+            "define": "HAS_NEWINPUTSYSTEM"
+        }
+    ],
+    "noEngineReferences": false
+}

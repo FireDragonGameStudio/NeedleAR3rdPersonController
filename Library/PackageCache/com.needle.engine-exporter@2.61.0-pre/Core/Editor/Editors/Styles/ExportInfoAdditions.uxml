@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns="UnityEngine.UIElements">
+    
+    <Style src="DefaultStyles.uss"/>
+    <Style src="ExportInfoAdditions.uss"/>
+
+<!--    <HelpBox class="project-path" text="" message-type="None" />-->
+    <VisualElement class="project-buttons horizontal-layout is-valid-project">
+        <Button class="open-project-directory require-valid-project" text="Open Project ↗" />
+        <Button class="open-vscode-workspace require-valid-project" text="Open Workspace ↗" />
+        <Button class="open-unity-settings" text="Open Settings" />
+    </VisualElement>
+    <VisualElement class="horizontal-layout block">
+<!--        <Button class="open-unity-settings" text="Open Settings" />-->
+    </VisualElement>
+</UXML>

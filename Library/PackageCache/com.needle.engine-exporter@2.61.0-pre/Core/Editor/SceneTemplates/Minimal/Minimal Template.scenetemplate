@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: Minimal Template
+  m_EditorClassIdentifier: UnityEditor.SceneTemplate.SceneTemplateAsset, UnityEditor.SceneTemplateModule
+    $ GlobalObjectId_V1-3-6296effc5c2e9d445bd806273a1bb0cb-11400000-0
+  templateScene: {fileID: 102900000, guid: 49068307165cdb346a242c48a6528235, type: 3}
+  templateName: Minimal (Needle)
+  description: Minimal scene with Needle Engine Exporter, WebXR and deployment, but
+    without any content. Use this to quickly get started from scratch.
+  preview: {fileID: 2800000, guid: 2d2de63415e5e384b83ff8fc8620def8, type: 3}
+  dependencies:
+  - dependency: {fileID: 2100000, guid: ec80277520cf6ba49ac1573ce5551a6c, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2754921003668958766, guid: 3c58b67bf19d7ba48a1051072a07741a, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 39a802f6842d896498768ef6444afe6f, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 8817559676569467060, guid: dc55b2cca6c9bdc4187b43e34b1b51cf, type: 3}
+    instantiationMode: 1
+  - dependency: {fileID: 2100000, guid: 739dcfdd1c79ca145a9a1cf64040b46f, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+    instantiationMode: 1
+  templatePipeline: {fileID: 11500000, guid: 769d2dee9cc827344ab8fddbe3759d35, type: 3}
+  addToDefaults: 0

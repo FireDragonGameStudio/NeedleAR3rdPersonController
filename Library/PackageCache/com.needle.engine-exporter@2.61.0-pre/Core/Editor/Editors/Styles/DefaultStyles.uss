@@ -1,0 +1,85 @@
+
+.h1 {
+    font-size: 16px;
+    -unity-font-style: bold;
+}
+
+.h2 {
+    font-size: 14px;
+    -unity-font-style: bold;
+}
+
+.h3 {
+    font-size: 12px;
+    -unity-font-style: bold;
+}
+
+.horizontal-layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.mark-attention {
+    border-color: rgba(255, 255, 0, .1);
+    border-width: 0px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 0, .1);
+}
+
+.mark-attention .unity-text-field__input {
+    background-color: rgba(50, 50, 20, .5);
+    border-color: rgba(255,255,0,.1);
+}
+
+
+TextElement.low-contrast {
+    opacity: .5;
+}
+
+Button {
+    cursor: link;
+}
+
+Button.small {
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+    color: #969AB0;
+    padding: 0;
+    border-color: rgba(120, 120, 120, .5);
+    border-radius: 0;
+}
+
+Button.small:hover {
+    cursor: link;
+    color: white;
+}
+
+.__light Button.small {
+    color: #4a5475;
+}
+
+.__light Button.small:hover {
+    color:black;
+}
+
+Button.big.center {
+    width: 150px;
+}
+
+Button.big {
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+    flex-grow: 0;
+}

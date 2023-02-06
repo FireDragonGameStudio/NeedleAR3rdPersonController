@@ -1,0 +1,26 @@
+{
+    "name": "Needle.Engine.Splines.Editor",
+    "rootNamespace": "Needle.Engine.Splines",
+    "references": [
+        "GUID:21d1eb854b91ade49bc69a263d12bee2",
+        "GUID:f23f84078225740478820679864d14f7",
+        "GUID:6086ce97fb14496588b8986d1f5d770f"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.splines",
+            "expression": "",
+            "define": "SPLINES_INSTALLED"
+        }
+    ],
+    "noEngineReferences": false
+}

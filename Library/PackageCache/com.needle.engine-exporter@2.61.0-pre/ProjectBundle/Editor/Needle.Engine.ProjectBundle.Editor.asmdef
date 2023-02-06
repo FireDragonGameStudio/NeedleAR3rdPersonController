@@ -1,0 +1,21 @@
+{
+    "name": "Needle.Engine.ProjectBundle.Editor",
+    "rootNamespace": "Needle.Engine.ProjectBundle",
+    "references": [
+        "GUID:f23f84078225740478820679864d14f7",
+        "GUID:02672f07e9b0dc34daa8cfbc5f3bc619",
+        "GUID:63199805345a4784cb9f767ea474e8cd",
+        "GUID:edf1763846676a349a2a9c06463bb1d6"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

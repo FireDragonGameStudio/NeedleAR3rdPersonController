@@ -1,0 +1,27 @@
+{
+    "name": "Needle.Engine.Timeline.Editor",
+    "rootNamespace": "Needle.Engine.Timeline",
+    "references": [
+        "GUID:f23f84078225740478820679864d14f7",
+        "GUID:02672f07e9b0dc34daa8cfbc5f3bc619",
+        "GUID:63199805345a4784cb9f767ea474e8cd",
+        "GUID:f06555f75b070af458a003d92f9efb00",
+        "GUID:02f771204943f4a40949438e873e3eff",
+        "GUID:18d18f811ba286c49814567a3cfba688",
+        "GUID:40f39bff7bc9be34182ebe488fcf8228",
+        "GUID:6086ce97fb14496588b8986d1f5d770f",
+        "GUID:27619889b8ba8c24980f49ee34dbb44a",
+        "GUID:edf1763846676a349a2a9c06463bb1d6"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Needle.Engine.Deployment",
+    "rootNamespace": "Needle.Engine.Deployment",
+    "references": [
+        "GUID:f23f84078225740478820679864d14f7",
+        "GUID:8c1b5e158961445498f8a66188fbb2e3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

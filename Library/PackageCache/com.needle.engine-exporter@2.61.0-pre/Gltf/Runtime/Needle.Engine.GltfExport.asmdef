@@ -1,0 +1,22 @@
+{
+    "name": "Needle.Engine.GltfExport",
+    "rootNamespace": "Needle.Engine.Gltf",
+    "references": [
+        "GUID:63199805345a4784cb9f767ea474e8cd",
+        "GUID:f23f84078225740478820679864d14f7",
+        "GUID:40f39bff7bc9be34182ebe488fcf8228",
+        "GUID:18d18f811ba286c49814567a3cfba688",
+        "guid:27619889b8ba8c24980f49ee34dbb44a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

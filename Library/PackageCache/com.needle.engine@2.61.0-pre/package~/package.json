@@ -1,0 +1,110 @@
+{
+  "name": "@needle-tools/engine",
+  "version": "2.45.0-pre",
+  "description": "Needle Engine is a web-based runtime for 3D apps. It runs on your machine for development, and can be deployed anywhere. It is flexible, extensible, and collaboration and XR come naturally.",
+  "main": "needle-engine.ts",
+  "module": "needle-engine.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/needle-tools/needle-engine-support"
+  },
+  "bugs": {
+    "url": "https://github.com/needle-tools/needle-engine-support/issues"
+  },
+  "homepage": "https://needle.tools",
+  "author": {
+    "name": "Needle",
+    "email": "hi@needle.tools",
+    "url": "https://needle.tools/"
+  },
+  "scripts": {
+    "dev": "npm-watch",
+    "font:generate": "node plugins/generate-font.js",
+    "publish": "node plugins/publish/publish.mjs",
+    "publish:test": "node plugins/publish/publish.mjs --dryrun",
+    "build" : "npm run build:dist && npm run build:src",
+    "build:dist": "vite build",
+    "build:src": "tsc --outDir dist/lib --noEmit false --declaration",
+    "build:license": "node plugins/publish/create-license.mjs",
+    "pack-gltf": "node --no-experimental-fetch node_modules/@needle-tools/gltf-transform-extensions/pack-gltf.mjs",
+    "transform:make-progressive": "node node_modules/@needle-tools/gltf-transform-extensions/make-progressive.mjs",
+    "test:circular-imports": "node plugins/check-circular-imports.js",
+    "test:tsc" : "tsc"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE.md"
+  ],
+  "keywords": [
+    "needle",
+    "unity",
+    "blender",
+    "ar",
+    "augmented reality",
+    "gltf",
+    "glb",
+    "webar",
+    "webvr",
+    "webxr",
+    "3d"
+  ],
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.9.0",
+    "flatbuffers": "2.0.4",
+    "md5": "^2.3.0",
+    "peerjs": "1.3.2",
+    "simplex-noise": "^4.0.1",
+    "stats.js": "^0.17.0",
+    "three": "npm:@needle-tools/three@^0.146.5",
+    "three-mesh-ui": "^6.4.5",
+    "three.quarks": "^0.7.3",
+    "uuid": "^9.0.0",
+    "websocket-ts": "^1.1.1"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.16.0",
+    "@luncheon/esbuild-plugin-gzip": "^0.1.0",
+    "@needle-tools/gltf-transform-extensions": "^0.11.2-pre",
+    "@needle-tools/needle-component-compiler": "1.9.3",
+    "@needle-tools/helper": "^0.2.1-pre",
+    "@types/three": "0.146.0",
+    "copy-files-from-to": "^3.3.0",
+    "esbuild": "^0.15.10",
+    "esbuild-node-externals": "^1.5.0",
+    "jsdoc-babel": "^0.5.0",
+    "jsdoc-to-markdown": "^7.1.1",
+    "madge": "^5.0.1",
+    "msdf-bmfont-xml": "^2.7.0",
+    "npm-watch": "^0.11.0",
+    "typescript": "^4.5.5",
+    "vite": "^4.0.4"
+  },
+  "watch": {
+    "test:circular-imports": {
+      "patterns": [
+        "engine/*",
+        "engine-components/*",
+        "engine-experimental/**/*"
+      ],
+      "extensions": "ts",
+      "quiet": false
+    },
+    "build:dist": {
+      "patterns": [
+        "engine/*",
+        "engine-components/*",
+        "engine-experimental/**/*"
+      ],
+      "extensions": "ts",
+      "quiet": false
+    }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}

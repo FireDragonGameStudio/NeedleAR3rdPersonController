@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.header > * {
+    align-self: center;
+    color: white;
+}
+
+.__light .header > * {
+    color: black;
+}
+
+.header .logo {
+    margin-left: -10px;
+    width: 24px;
+    height: 24px;
+    background-image: url("../Assets/logo.png");
+}
+
+.header .title {
+    margin-left: 10px
+}

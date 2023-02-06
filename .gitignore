@@ -1,0 +1,17 @@
+﻿**/node_modules
+projects/*/.idea
+projects/*/obj
+projects/*/temp
+projects/*/Library
+projects/*/Logs
+projects/*/*.csproj
+projects/*/*.sln
+projects/*/bin
+projects/**/UserSettings
+projects/**/build.log
+**/Needle Samples FTP.**
+projects/*/*.sln.DotSettings.user
+projects/**/FTPServer.asset*
+needle-engine-samples.tgz
+projects/Needle Engine Samples 2020_3/Assets/Needle FTP
+projects/Needle Engine Samples 2020_3/*/Needle FTP.*

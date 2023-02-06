@@ -1,0 +1,192 @@
+.header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.header > Label {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.header .buttons {
+    flex-direction: row;
+}
+
+.header .buttons Label {
+    align-self: center;
+}
+
+.header .buttons Image.icon {
+    align-self: center;
+    height: 16px;
+    width: 16px;
+}
+
+.header Button {
+    flex-shrink: 1; 
+}
+
+.items {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+Toolbar {
+    flex-shrink: 0;
+}
+
+Toolbar ToolbarSpacer {
+    flex-grow: 40;
+}
+
+SamplesSearchField {
+    flex-shrink: 5;
+}
+
+Sample {
+    width: 100%;
+    margin-bottom: 0px;
+    border-width: 2px;
+    border-color: rgba(0,0,0,0.0);
+    align-items: center;
+}
+
+Sample:hover {
+    border-color: rgb(181, 222, 77);
+}
+
+.__light Sample:hover {
+    border-color: rgb(121, 173, 22);
+}
+
+.__columns_1 Sample {
+    width: 100%;
+}
+
+.__columns_2 Sample {
+    width: 50%;
+}
+
+.__columns_3 Sample {
+    width: 33.333%;
+}
+
+.__columns_4 Sample {
+    width: 25%;
+}
+
+.__columns_5 Sample {
+    width: 20%;
+}
+
+.__columns_6 Sample {
+    width: 16.666%;
+}
+
+.__columns_7 Sample {
+    width: 14.285%;
+}
+
+.__columns_8 Sample {
+    width: 12.5%;
+}
+
+.__columns_9 Sample {
+    width: 11.111%;
+}
+
+.__columns_10 Sample {
+    width: 10%;
+}
+
+Sample .image-container {
+    width: 100%;
+    padding:10px;
+    align-items: center;
+    overflow: hidden;
+}
+
+Sample Image {
+    max-height: 200px;
+    width: 100%;
+}
+
+Sample.no-preview {
+}
+
+#Content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+    margin-bottom: 0px;
+}
+
+.overlay {
+    padding: 10px;
+    bottom: 4px;
+    max-width: 80%;
+    font-size: 14px;
+    height: 100%;
+    margin-top: 4px;
+}
+
+.overlay Label {
+    white-space: normal;
+}
+
+.overlay #Title {
+    font-size: 20px;
+}
+/*
+Sample:hover .overlay #Title {
+    -unity-font-style: bold;
+}
+ */
+
+.options {
+    position: absolute;
+    padding: 5px;
+    top: 4px;
+    right: 4px;
+}
+
+/*
+Sample:hover .options {
+    display: initial;
+}
+*/
+
+.__columns_1 Sample {
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.__columns_1 Sample .image-container {
+    width: 40%;
+    max-height: 120px;
+    margin-top: 3px;
+}
+
+.__columns_1 Sample #Content {
+}
+
+.__columns_1 Sample .overlay {
+    height: auto;
+    max-width: 100%;
+}
+
+.__columns_1 Sample .options {
+    position: initial;
+    width: 120px;
+    padding-top: 0px;
+}
+
+.__columns_1 .overlay Label {
+    font-size: 12px;
+}
+
+.__columns_1 .overlay #Title {
+    font-size: 16px;
+}

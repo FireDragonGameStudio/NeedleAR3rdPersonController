@@ -1,0 +1,22 @@
+{
+    "name": "Needle.Engine.Deployment.Editor",
+    "rootNamespace": "Needle.Engine.Deployment",
+    "references": [
+        "GUID:f23f84078225740478820679864d14f7",
+        "GUID:4d85374ce7de404ebfda3b5fe6862c01",
+        "GUID:63199805345a4784cb9f767ea474e8cd",
+        "GUID:02f771204943f4a40949438e873e3eff",
+        "GUID:8c1b5e158961445498f8a66188fbb2e3"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

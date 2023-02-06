@@ -1,0 +1,46 @@
+{
+    "name": "Needle.Engine.Samples.Editor",
+    "rootNamespace": "Needle.Engine.Samples",
+    "references": [
+        "GUID:f23f84078225740478820679864d14f7"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.needle.engine-samples",
+            "expression": "",
+            "define": "HAS_NEEDLE_SAMPLES"
+        },
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "10.0.0",
+            "define": "HAS_URP"
+        },
+        {
+            "name": "Unity",
+            "expression": "[2020.3.33,2021)",
+            "define": "HAS_2020_LTS"
+        },
+        {
+            "name": "Unity",
+            "expression": "[2021.3.9,2022)",
+            "define": "HAS_2021_LTS"
+        },
+        {
+            "name": "Unity",
+            "expression": "2022.1",
+            "define": "HAS_UNITY_NEWER_THAN_LTS"
+        }
+    ],
+    "noEngineReferences": false
+}

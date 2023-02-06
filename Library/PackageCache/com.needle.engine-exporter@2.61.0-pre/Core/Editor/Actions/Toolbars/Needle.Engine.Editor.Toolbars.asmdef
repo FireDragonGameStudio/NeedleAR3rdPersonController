@@ -1,0 +1,26 @@
+{
+    "name": "Needle.Engine.Editor.Toolbars",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5c2f1ee1026d79842834d3fc2dfe4d7c",
+        "GUID:63199805345a4784cb9f767ea474e8cd",
+        "GUID:0acc523941302664db1f4e527237feb3"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.needle.inspector",
+            "expression": "0.0.0",
+            "define": "HAVE_NEEDLE_INSPECTOR"
+        }
+    ],
+    "noEngineReferences": false
+}

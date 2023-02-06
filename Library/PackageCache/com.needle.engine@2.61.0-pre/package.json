@@ -1,0 +1,23 @@
+{
+    "displayName": "Needle Engine",
+    "name": "com.needle.engine",
+    "version": "2.61.0-pre",
+    "unity": "2020.3",
+    "description": "Runtime Engine for the Needle Engine Exporter",
+    "keywords": [
+        "Three.js",
+        "Export",
+        "Platform",
+        "Runtime",
+        "WebGL"
+    ],
+    "author": {
+        "name": "Needle",
+        "email": "hi@needle.tools",
+        "url": "https://needle.tools"
+    },
+    "category": "Libraries",
+    "type": "tool",
+    "dependencies": {
+    }
+}

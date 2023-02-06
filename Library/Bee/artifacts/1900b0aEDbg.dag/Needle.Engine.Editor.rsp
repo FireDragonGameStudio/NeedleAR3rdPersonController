@@ -1,0 +1,510 @@
+-target:library
+-out:"Library/Bee/artifacts/1900b0aEDbg.dag/Needle.Engine.Editor.dll"
+-refout:"Library/Bee/artifacts/1900b0aEDbg.dag/Needle.Engine.Editor.ref.dll"
+-define:UNITY_2021_3_16
+-define:UNITY_2021_3
+-define:UNITY_2021
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_INCLUDE_TESTS
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_VIDEO
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:PLATFORM_STANDALONE
+-define:TEXTCORE_1_0_OR_NEWER
+-define:PLATFORM_STANDALONE_WIN
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_4_6
+-define:NET_UNITY_4_8
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:SRP_INSTALLED
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.NVIDIAModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"C:/Users/marku/Documents/UnityProjects/Needle3rdPersonXR/Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Common/Editor/Plugins/Semver.dll"
+-r:"C:/Users/marku/Documents/UnityProjects/Needle3rdPersonXR/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Users/marku/Documents/UnityProjects/Needle3rdPersonXR/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/GLTFSerialization.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Needle.Engine.Common.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Needle.Engine.Common.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Needle.Engine.Samples.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.RenderPipelines.Core.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.SharpZipLib.Utils.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/Unity.Timeline.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.TestRunner.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityGLTFScripts.ref.dll"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Actions/Actions.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Actions/ActionsBuild.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Actions/ActionsCompression.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Actions/ActionsHelperPackage.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Actions/BuildPlayer.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Actions/EnterPlayMode.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Actions/InternalActions.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Actions/MenuItems.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Actions/ViteActions.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/AdditionalData/BaseAdditionalData.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/AdditionalData/FogSettings.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/AdditionalData/LODData.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/AdditionalData/LookAtConstraintData.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/AdditionalData/RendererSettingsEmitter.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Analytics/Analytics.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Analytics/Models.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/AssemblyInfo.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/AssetDependency.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/AssetDependencyCache.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/AssetDependencyHandler.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/BuildContext.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/Builder.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/BuildPlatformFooterProvider.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/BuildRunner.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/BuildTaskList.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/Converters/CompoundConverter.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/Converters/IJavascriptConverter.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/Converters/JavascriptConverter.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/Converters/ThreeJsConverter.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/Converters/ToJsonConverter.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/Converters/UnityTypeConverter.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/CopyIncludes.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/Emitter/GltfEmitter.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/Emitter/ScriptEmitter.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/Emitter/ThreeUtils.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/Emitter/TransformEmitter.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/ExportContext.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/ExportResultInfo.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/ExportType.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/ImportsGenerator.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/IReferenceResolver.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/ITypeMemberHandler.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/ITypeMemberRegisterHandler.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/MemberHandlers/AnimatorMembers.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/MemberHandlers/CameraMembers.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/MemberHandlers/ColliderMembers.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/MemberHandlers/GameObjectMembers.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/MemberHandlers/IgnoreMembers.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/MemberHandlers/IgnoreObsoleteTypeMembers.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/MemberHandlers/IgnoreTextGenerator.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/MemberHandlers/KeyCodeHandler.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/MemberHandlers/LookConstraintMembers.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/MemberHandlers/ParticleSystemMembers.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/MemberHandlers/RectResolver.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/MemberHandlers/ReflectionProbeMembers.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/MemberHandlers/RendererMembers.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/MemberHandlers/RigidbodySettings.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/MemberHandlers/VolumeMembers.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/NameUtil.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/ReferenceExtensions.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/ReferenceRegistry.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/ReferenceResolver.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/ReferenceResolvers/AudioResolver.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/ReferenceResolvers/EventTriggerResolver.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/ReferenceResolvers/FontHandler.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/ReferenceResolvers/GltfReferenceResolver.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/ReferenceResolvers/LayerMaskResolver.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/ReferenceResolvers/ParticleSystemModules.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/ReferenceResolvers/SpriteResolver.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/ReferenceResolvers/UnityStructResolver.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/ReferenceResolvers/VideoResolver.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/TypeRegisterHandler/DefaultTypeMemberRegisterHandler.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/TypeRegisterHandler/EventTriggerHandler.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/References/TypeRegisterHandler/LookAtContraintHandler.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/RuntimeTypeRegisterHelper.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/Writer/CodeWriter.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/Writer/CultureScope.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Core/Writer/IndentationScope.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Editors/AdditionalComponentDataInspectorHint.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Editors/Assets/Assets.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Editors/ExportInfoContextMenu.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Editors/ExportInfoEditor.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Editors/Extensions/CameraInspectorExtension.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Editors/Extensions/ComponentEditorExtension.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Editors/ImageReference.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Editors/ImportSettings/AssetSettingsInspector.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Editors/ImportSettings/ImportSettingsInject.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Editors/InspectorComponentLink.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Editors/SceneChangeListener.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Editors/UIElementsBuilder.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Editors/WelcomeWindow.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Hierarchy/HierarchyWatcher.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Hierarchy/MarkEditorOnly.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Interfaces/IAdditionalDataEmitter.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Interfaces/IBeforeExportGltf.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Interfaces/IBuildStageCallbacks.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Interfaces/IEmitter.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Interfaces/IRequireExportContext.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/DefaultProblemFactory.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/FixImplementations/CompoundFix.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/FixImplementations/CreateGitIgnoreFix.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/FixImplementations/DeleteFileFix.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/FixImplementations/InstallProjectFix.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/FixImplementations/NpmUpdate.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/FixImplementations/ReplaceOldImportsInCodeFilesFix.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/FixImplementations/ReplaceOldPackageNameInFileFix.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/Problem.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/ProblemContext.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/ProblemExtensions.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/ProblemFactory.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/ProblemImplementations/FoundOldPackageName.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/ProblemImplementations/MissingGitIgnore.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/ProblemImplementations/MissingPackageJson.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/ProblemImplementations/NeedUpdate.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/ProblemImplementations/OldGltfPackScript.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/ProblemImplementations/PackageNotInstalled.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/ProblemSeverity.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/ProblemSolver.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/ProjectValidator.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/Reporting/ProjectInfoReporter.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Problems/Validations.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Projects/ProjectGenerator.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Projects/ProjectPaths.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Projects/ProjectsData.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Projects/ProjectTemplate.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Projects/SceneEditor.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Projects/SceneProjectWindowRenderer.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Projects/TempProject.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/SceneTemplates/PostProcessNeedleTemplate.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Serialization/NeedleContractResolver.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Serialization/NewtonsoftSerializer.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Serialization/NewtonsoftSettings.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Serialization/TypeSerialization.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Settings/ConfigProperties.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Settings/ExporterProjectSettings.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Settings/ExporterProjectSettingsProvider.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Settings/ExporterUserSettings.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Utils/AutoInstall.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Utils/BuildOnSave.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Utils/ComponentEditorUtils.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Utils/DriveHelper.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Utils/EditorDelayedCall.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Utils/EventUtils.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Utils/ExportCompiled/ExportCompiled.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Utils/ExportCompiled/ResourceReference.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Utils/FontsHelper.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Utils/SceneExportUtils.cs"
+"Library/PackageCache/com.needle.engine-exporter@2.61.0-pre/Core/Editor/Utils/VersionsUtil.cs"
+-langversion:9.0
+
+/deterministic
+/optimize-
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+
+/nowarn:0169
+/nowarn:0649
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+-warn:0
+
+/additionalfile:"Library/Bee/artifacts/1900b0aEDbg.dag/Needle.Engine.Editor.AdditionalFile.txt"

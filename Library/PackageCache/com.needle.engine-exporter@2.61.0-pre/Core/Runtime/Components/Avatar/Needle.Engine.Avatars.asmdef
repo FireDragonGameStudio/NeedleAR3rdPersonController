@@ -1,0 +1,19 @@
+﻿{
+    "name": "Needle.Engine.Avatars",
+    "rootNamespace": "Needle.Engine.Components",
+    "references": [
+        "GUID:f23f84078225740478820679864d14f7",
+        "GUID:02672f07e9b0dc34daa8cfbc5f3bc619",
+        "GUID:63199805345a4784cb9f767ea474e8cd",
+        "GUID:6086ce97fb14496588b8986d1f5d770f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns="UnityEngine.UIElements">
+    <Template name="Header" src="Header.uxml" />
+    <Style src="ComponentHeader.uss"/>
+    
+    <VisualElement class="component-header">
+        <Instance template="Header" />
+    </VisualElement>
+</UXML>

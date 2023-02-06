@@ -1,0 +1,29 @@
+{
+    "name": "Needle.Engine",
+    "rootNamespace": "Needle.Engine",
+    "references": [
+        "GUID:f23f84078225740478820679864d14f7",
+        "GUID:a42927d1d4a3b4cda9b076a7adecb9cc",
+        "GUID:5e7ba8d6d26c84943b64dd07bd1c9510",
+        "GUID:18d18f811ba286c49814567a3cfba688",
+        "GUID:40f39bff7bc9be34182ebe488fcf8228",
+        "GUID:6086ce97fb14496588b8986d1f5d770f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.atteneder.gltfast",
+            "expression": "",
+            "define": "GLTFAST"
+        }
+    ],
+    "noEngineReferences": false
+}

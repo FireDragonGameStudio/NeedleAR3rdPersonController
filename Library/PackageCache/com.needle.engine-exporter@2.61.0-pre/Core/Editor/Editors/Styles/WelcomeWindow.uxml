@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns="UnityEngine.UIElements">
+    
+    <Style src="DefaultStyles.uss"/>
+    <Style src="WelcomeWindow.uss"/>
+    
+    <VisualElement class="content">   
+        <Template src="Header.uxml" name="Header"/>
+        <Instance template="Header"/>
+        <VisualElement class="body">
+            <VisualElement class="block desc" text="Info">
+                <TextElement class="selectable" 
+                             text="Needle Engine for Unity allows you to build lightweight and fast web experiences. Bring your content to the web!"/>
+            </VisualElement>
+            <VisualElement>
+                <Button class="link big" text="Watch Tutorial" name="https://youtu.be/3dB-d1Jo_Mk?t=231" tooltip="Watch a tutorial video and learn the basics of setting up and using Needle Engine. ↗"/>
+                <Button class="big create-scene" text="Create Sandbox Scene" name="CreateSandboxScene" tooltip="Create a new scene from our Collaborative Sandbox template."/>
+                <Button class="big view-samples" text="Explore Samples" name="ViewSamples" tooltip="Explore Interactive Needle Engine Sample Scenes"/>
+                <Button class="link big" text="Join the Community" name="https://discord.needle.tools" tooltip="Join hundreds of developers and artists using Needle Engine. ↗"/>
+            </VisualElement>
+        </VisualElement>
+    </VisualElement>
+    <VisualElement class="footer">
+        <VisualElement class="left">
+            <Button class="link small" text="Get a license ↗" name="https://engine.needle.tools/buy"/>
+            <Button class="link small" text="Documentation ↗" name="https://fwd.needle.tools/needle-engine/docs"/>
+            <Button class="link small" text="Support ↗" name="https://discord.needle.tools"/>
+        </VisualElement>
+        <VisualElement class="middle"/>
+        <VisualElement class="right">
+            <Toggle class="show-at-startup" text="Show at startup"/>
+        </VisualElement>
+    </VisualElement>
+</UXML>

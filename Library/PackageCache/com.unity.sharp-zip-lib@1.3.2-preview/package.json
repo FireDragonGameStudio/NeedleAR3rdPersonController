@@ -1,0 +1,21 @@
+{
+  "displayName": "SharpZipLib",
+  "name": "com.unity.sharp-zip-lib",
+  "unity": "2019.4",
+  "version": "1.3.2-preview",
+  "description": "A package that wraps SharpZipLib (https://github.com/icsharpcode/SharpZipLib) to be used inside Unity",
+  "contributors": [
+    "Sindharta Tanuwijaya <sindharta.tanuwijaya@unity3d.com> (https://github.com/sindharta)"
+  ],
+  "_upm": {
+    "changelog": "* Re-releasing 1.3.1-preview as 1.3.2-preview"
+  },
+  "upmCi": {
+    "footprint": "a5a2fb6cd280e5c1cb42adc1abc7c109655ce769"
+  },
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/SharpZipLib.git",
+    "type": "git",
+    "revision": "12cdd575f479645f5ef7c03eb1952ed49a1f1521"
+  }
+}

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns="UnityEngine.UIElements">
+    <Style src="DefaultStyles.uss"/>
+
+    <VisualElement class="tutorial">
+        <VisualElement class="block tips">
+            <VisualElement class="steps">
+                <VisualElement>
+                    <TextElement class="h3 title" text="Getting started"/>
+                    <TextElement
+                            text="Thank you for installing Needle Exporter for Unity! Follow these steps to make sure you are ready to build projects for the web."/>
+                </VisualElement>
+                <VisualElement class="action:skip_IfHasNodeJs">
+                    <TextElement class="h3 title" text="Download node.js"/>
+                    <TextElement
+                            text="We heavily make use of node.js and the npm ecosystem. Please visit https://nodejs.org/ and install the recommended node.js LTS version (16 or above)"/>
+                </VisualElement>
+                <VisualElement class="action:skip_IfHasNodeJs">
+                    <TextElement class="h3 title" text="Install node.js and restart"/>
+                    <TextElement
+                            text="After installing node.js (https://nodejs.org/) make sure to restart your computer. Then come back and continue with the tutorial!"/>
+                </VisualElement>
+                <VisualElement>
+                    <TextElement class="h3 title" text="Create a scene"/>
+                    <TextElement
+                            text="Create a new scene and choose one of our templates. You may skip this step if you already have a scene that supports our exporter."/>
+                </VisualElement>
+                <VisualElement>
+                    <TextElement class="h3 title" text="Select the ExportInfo component"/>
+                    <TextElement
+                            text="The ExportInfo component is your entry point to creating, building and running web projects."/>
+                </VisualElement>
+                <VisualElement>
+                    <TextElement class="h3 title" text="You're almost ready"/>
+                    <TextElement
+                            text="Follow the instructions in the ExportInfo component to create and run your project!"/>
+                </VisualElement>
+            </VisualElement>
+        </VisualElement>
+        <VisualElement class="block actions tutorial-steps">
+            <Button class="big prev-step" text="«"/>
+            <VisualElement class="steps">
+                <Button class="big center next-step" text="Begin setup"/>
+                <Button class="big center next-step open-nodejs-website" text="Download node.js"/>
+                <Button class="big center next-step require-nodejs" text="Continue"/>
+                <Button class="big center next-step create-scene" text="Create Sandbox"/>
+                <Button class="big center next-step select-exporter" text="Select ExportInfo"/>
+                <!--                <Button class="big center install-package" text="Run Install"/>-->
+                <Button class="big center close-window select-exporter" text="Finish"/>
+            </VisualElement>
+            <Button class="big next-step" text="»"/>
+        </VisualElement>
+        <!-- <Button class="dismiss" tooltip="hide options" text="x"/>-->
+    </VisualElement>
+</UXML>

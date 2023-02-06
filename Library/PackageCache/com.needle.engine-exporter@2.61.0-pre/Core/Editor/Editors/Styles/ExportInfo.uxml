@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns="UnityEngine.UIElements">
+    
+    <Style src="DefaultStyles.uss"/>
+    <HelpBox class="missing-project-info" text="Please enter a name for your project:" message-type="Warning" />
+    <TextField class="mark-attention" label="Directory Name" name="directoryName" binding-path="DirectoryName"/>
+    <Button class="missing-project-info big" text="Generate Project" />
+    <VisualElement class="is-valid-project">
+        <Toggle label="Override Enter PlayMode" binding-path="OverrideEnterPlayMode" />
+        <Toggle label="Auto Export" binding-path="AutoExport" />
+    </VisualElement>
+</UXML>

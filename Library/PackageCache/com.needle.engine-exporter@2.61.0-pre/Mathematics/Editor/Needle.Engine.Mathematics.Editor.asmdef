@@ -1,0 +1,25 @@
+{
+    "name": "Needle.Engine.Mathematics.Editor",
+    "rootNamespace": "Needle.Engine.Mathematics",
+    "references": [
+        "GUID:edf1763846676a349a2a9c06463bb1d6",
+        "GUID:d8b63aba1907145bea998dd612889d6b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.mathematics",
+            "expression": "",
+            "define": "MATHEMATICS_INSTALLED"
+        }
+    ],
+    "noEngineReferences": false
+}

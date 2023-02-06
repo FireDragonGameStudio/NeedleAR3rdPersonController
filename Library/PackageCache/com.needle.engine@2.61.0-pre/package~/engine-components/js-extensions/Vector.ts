@@ -1,0 +1,16 @@
+import { applyPrototypeExtensions, registerPrototypeExtensions } from "./ExtensionUtils";
+import { Vector3 } from "three";
+import { slerp } from "../../engine/engine_three_utils";
+
+export function apply(object: Vector3) {
+    if (object && object.isVector3 === true) {
+        applyPrototypeExtensions(object, Vector3);
+    }
+}
+
+
+Vector3.prototype["slerp"] = function (end: Vector3, t: number) {
+    return slerp(this, end, t);
+}
+
+registerPrototypeExtensions(Vector3);

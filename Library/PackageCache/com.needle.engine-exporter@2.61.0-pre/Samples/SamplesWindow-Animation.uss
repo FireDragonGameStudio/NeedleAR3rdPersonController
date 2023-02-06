@@ -1,0 +1,14 @@
+/*
+
+// Need to figure out a way to guard against Unity's weird import errors in earlier versions...
+
+Sample Image {
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+Sample:hover Image {
+    scale: 1.03;
+}
+
+*/

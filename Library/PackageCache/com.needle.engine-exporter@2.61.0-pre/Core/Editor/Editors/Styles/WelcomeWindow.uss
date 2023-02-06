@@ -1,0 +1,92 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.body, .footer {
+    padding: 10px;
+}
+
+.body .block {
+    padding-bottom: 10px
+}
+
+.body .unity-text-element {
+    margin-bottom: 10px;
+}
+
+Button.dismiss {
+    position: absolute;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0;
+}
+
+.block.tips {
+    border-width: 1px;
+    border-color: gray;
+    padding: 10px;
+    background-color: rgba(255, 255, 100, .06);
+    border-radius: 4px;
+    padding-bottom: 15px;
+    margin-bottom: 5px;
+}
+
+.block.tips .title {
+    margin-bottom: 10px;
+}
+
+.block.actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.tips .actions {
+    /*border-width: 1px;*/
+    /*border-color: wheat;*/
+    margin-top: 5px;
+    padding-bottom: 0px;
+}
+
+.footer Button {
+    flex-grow: 0;
+}
+
+.footer {
+    flex-direction: row;
+    bottom: 0;
+    padding-bottom: 20px;
+}
+
+.footer .left {
+    align-self: flex-start;
+    flex-direction: column;
+    -unity-text-align: middle-left;
+} 
+
+.footer .left Button {
+    -unity-text-align: middle-left;
+}
+
+.footer .middle {
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.footer .right {
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.footer .right Label {
+    padding-left: 5px;
+}

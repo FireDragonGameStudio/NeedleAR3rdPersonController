@@ -1,0 +1,21 @@
+{
+  "name": "@needle-tools/react-three-fiber",
+  "version": "1.0.0",
+  "author": {
+    "name": "Needle",
+    "email": "hi@needle.tools"
+  },
+  "main": "index.ts",
+  "peerDependencies": {
+    "@needle-tools/engine": ">= 1.0.0-pre",
+    "@react-three/fiber": "^8.8.11",
+    "react": "^18.0.0",
+    "three": "^0.130"
+  },
+  "devDependencies": {
+    "@needle-tools/engine": "../../../../../../js/package~",
+    "@react-three/fiber": "^8.8.11",
+    "react": "^18.0.0",
+    "three": "../../../../../../modules/three"
+  }
+}

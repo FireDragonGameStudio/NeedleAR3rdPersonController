@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0b00951c4dd8c0a4d90b5db3afcb01d0
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 51c6c8463f464055a003229fe6ce82cf, type: 3}
+  original: {fileID: 3459187732332332595, guid: 220d6b488b6d163469ab8892e4daa848, type: 3}
+  material: {fileID: 2100000, guid: 526b74a33821d18448c3f0a068d92e37, type: 2}
+  useAO: 1
+  settings:
+    useFloorPlane: 0
+    maxDistanceRelative: 0.5
+    aoColor: {r: 0, g: 0, b: 0, a: 1}
